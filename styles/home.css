@@ -1,0 +1,466 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url("/assets/images/header-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 40em;
+}
+.action-start-date {
+  background: linear-gradient(
+    90deg,
+    #936037 0.05%,
+    #915c35 28.17%,
+    #7f442c 66.69%,
+    #7d412a 100.02%
+  );
+  backdrop-filter: blur(5px);
+  width: 375px;
+  height: 340px;
+}
+.action-start {
+  position: absolute;
+  top: 268px;
+  left: 180px;
+  z-index: 5;
+}
+.action-title {
+  color: white;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+.action-time {
+  color: white;
+  font-family: "Visby";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  margin-left: 38px;
+  margin-bottom: 0px;
+}
+.action-time-details {
+  font-family: Visby;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0px;
+  color: white;
+  margin-left: 44px;
+}
+.white-header-section {
+  position: absolute;
+  top: 32rem;
+  z-index: 4;
+}
+.background-logo {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 64px;
+}
+
+.navbar-nav {
+  padding-left: 345px;
+}
+.about {
+  display: flex;
+  background-image: url("/assets/images/flowr-background.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: right 45px bottom;
+  background-color: #f5f5f5;
+}
+.title-home {
+  color: #ffffff;
+  font-family: "Visby";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 24px;
+}
+.body-home {
+  color: #ffffff;
+  font-family: Visby;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.title {
+  margin-top: 4rem;
+  margin-left: 11rem;
+}
+.line {
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+  text-decoration-thickness: 2px;
+}
+.colorful-horse {
+  position: relative;
+  z-index: 10;
+}
+.same-background {
+  background-color: #f5f5f5;
+}
+.start-end-date {
+  width: 404px;
+  height: 107px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  right: 20px;
+  box-shadow: 0px 4px 11px -2px grey;
+  padding: 2px;
+}
+.start-end-date-previous {
+  width: 360px;
+  height: 30px;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  right: 15px;
+  box-shadow: 0px 4px 11px -2px grey;
+  padding: 2px;
+}
+.brown-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 30px;
+  gap: 10px;
+  color: #936037;
+  border-color: #ffffff;
+  background: #ffffff;
+}
+.online {
+  position: absolute;
+  right: 43px;
+  top: -6px;
+}
+.header-list {
+  font-family: Visby;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+.about-text {
+  margin: 125px;
+  position: relative;
+  z-index: 10;
+}
+.sponsor-title {
+  font-family: Georgia;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-align: center;
+}
+.sponsors {
+  background-color: white;
+  margin-top: -254px;
+}
+.footer-design-title {
+  font-family: Visby;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-align: center;
+  background-color: #f5f5f5;
+  margin-bottom: 0;
+  padding: 10px;
+}
+.footer-design-title-bold {
+  font-family: Visby;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-align: center;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 50%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  position: relative;
+  width: 65%;
+  margin-bottom: -43px;}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.watch-auction-title {
+  font-family: Georgia;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.watch-auction {
+  /* background-image: url("/assets/images/flowr-background.png"); */
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: right right;
+  background-color: #f5f5f5;
+}
+footer {
+  background-image: url("/assets/images/footer-brown.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 25em;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+.follow-us {
+  margin-top: 125px;
+  margin-left: 35px;
+}
+.contact-us {
+  margin-top: 125px;
+}
+.how-to-buy {
+  height: 64rem;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    #936037 0.05%,
+    #915c35 28.17%,
+    #7f442c 66.69%,
+    #7d412a 100.02%
+  );
+  margin-top: -157px;
+  margin-bottom: 103px;
+}
+.brown-footer1-section {
+  background-color: whitesmoke;
+  top: 0px;
+}
+.brown-footer2-section {
+  position: relative;
+  bottom: 18rem;
+  z-index: 1;
+}
+.how-to-buy-nested {
+  height: 40rem;
+  width: 93%;
+  background: #377d93;
+  margin-left: 44px;
+}
+.how-to-buy-text {
+  margin: 45px;
+  color: white;
+}
+.white-space-center {
+  position: relative;
+  top: 26rem;
+}
+.white-space-center-left-img {
+  position: relative;
+  top: 20rem;
+  right: 0px;
+}
+.white-space-center-right-img {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+}
+
+.swiper1 {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide1 {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide1 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.previos-auction-card {
+  height: 30rem;
+  width: 30rem;
+  background: linear-gradient(
+    90deg,
+    #936037 0.05%,
+    #915c35 28.17%,
+    #7f442c 66.69%,
+    #7d412a 100.02%
+  );
+  box-shadow: 0px 3px 3px -1px rgba(0, 0, 0, 0.24);
+}
+
+.car-previous {
+  width: 330px;
+  height: 180px;
+
+  /* gr */
+
+  background: linear-gradient(
+    90deg,
+    #936037 0.05%,
+    #915c35 28.17%,
+    #7f442c 66.69%,
+    #7d412a 100.02%
+  );
+  /* sh sm */
+
+  box-shadow: 0px 3px 3px -1px rgba(0, 0, 0, 0.24);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  z-index: 0;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #f8f8f8;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  color: #936037;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  color: #936037;
+  text-decoration: underline #936037;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.swiper-pagination {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: auto !important;
+	left: auto !important;
+	margin: 0;
+}
+
