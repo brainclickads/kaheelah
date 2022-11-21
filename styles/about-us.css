@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar-nav {
+  padding-left: 246px;
+}
+
+header {
+  background: #ffffff;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(12, 5, 5, 0.5);
+  border-color: rgb(0 0 0 / 10%);
+}
+.about {
+  display: flex;
+  background-image: url(../assets/images/flowr-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 55rem 62rem;
+  background-color: #f5f5f5;
+  background-position: left 152% center;
+  }
+.about-text {
+    margin: 125px;
+    position: relative;
+    z-index: 10;
+  }
+  .sponsor-title {
+    font-family: Georgia;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-align: center;
+  }
+  .sponsors {
+    background-color: white;
+  }
+  .footer-design-title {
+    font-family: Visby;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin-bottom: 0;
+    padding: 10px;
+  }
+  .footer-design-title-bold {
+    font-family: Visby;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-align: center;
+  }
+  footer {
+    background-image: url("../assets/images/footer-brown.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 25em;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+  .follow-us {
+    margin-top: 125px;
+    margin-left: 35px;
+  }
+  .contact-us {
+    margin-top: 125px;
+  }
+  .brown-footer1-section {
+    background-color: whitesmoke;
+    top: 0px;
+  }
+  .brown-footer2-section {
+    position: relative;
+    bottom: 18rem;
+    z-index: 1;
+  }
+  .how-to-buy-text {
+    margin: 45px;
+    color: white;
+  }
+  .how-to-buy{
+
+      background-color: rgb(31, 109, 105);
+      width: 90%;
+      margin: auto auto 24px;
+      background-image: url(../assets/images/flower-back-ground.png);
+      background-repeat: no-repeat;
+      background-position: left 81% center;
+ 
+}
+  
+  .how-to-sell{
+    background-color: #377D93;
+    width: 90%;
+    margin: auto auto 24px;
+    background-image: url(../assets/images/flower-back-ground.png);
+    background-repeat: no-repeat;
+
+    background-position: left 20% center;
+  }
+  .how-to-buy-sell{
+    background-color: #f5f5f5;
+  }
+  /* For Mobile Phones Portrait or Landscape View */
+
+@media only screen and (max-width: 850px) {
+ 
+  .about {
+    display: flex;
+    background-image: url(../assets/images/flowr-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 18rem center;
+    background-size: 82rem 83rem;
+    background-color: #f5f5f5;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 80px;}
+    
+    .how-to-buy {
+      display: flex;
+      background-color: rgb(31, 109, 105);
+      width: 90%;
+      margin: auto auto 24px;
+      background-image: url(../assets/images/flower-back-ground.png);
+      background-repeat: no-repeat;
+      background-position: left 171% center;
+      background-size: 97% 101%;
+      flex-direction: column;
+  }
+  .how-to-sell {
+   
+    background-color: rgb(55, 125, 147);
+    width: 90%;
+    margin: auto auto 24px;
+    display: flex;
+    background-image: url(../assets/images/flower-back-ground.png);
+    background-repeat: no-repeat;
+    background-position: left 171% center;
+    background-size: 97% 101%;
+    flex-direction: column;
+
+}
+.navbar-nav {
+  padding-left: 0px;
+}
+.sponsor-images{
+  width: 14rem;
+  flex-direction: column;
+  align-items: center;
+}
+.sponsors{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-text {
+  margin: 12px;
+  position: relative;
+  z-index: 10;
+}
+footer{
+  background-image: url();
+ height: 52em;
+    background-color: #944f2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-hide-images{
+  display: none;
+}
+.follow-us {
+ margin-top: 0px; 
+ margin-left: 0px; 
+}
+  }
+   
+  /* For iPhone 4 Portrait or Landscape View */
+  @media screen and (min-device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+  }
+   
+  /* For iPhone 5 Portrait or Landscape View */
+  @media (device-height: 568px) and (device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+   
+  }
+   
+  /* For iPhone 6 and 6 plus Portrait or Landscape View */
+  @media (min-device-height: 667px) and (min-device-width: 375px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+   
+  
+  
+  
+  } 
